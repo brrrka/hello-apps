@@ -61,5 +61,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ steps.ecr.outputs.registry }}/devops-lab-app:${{ github.sha }}
-            ${{ steps.ecr.outputs.registry }}/devops-lab-app:latest
+            ${{ steps.ecr.outputs.registry }}/hello-apps:${{ github.sha }}
+            ${{ steps.ecr.outputs.registry }}/hello-apps:latest
